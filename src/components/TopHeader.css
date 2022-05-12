@@ -1,0 +1,41 @@
+.topHeader {
+    background-color: rgb(69, 69, 69);
+    width: 100%;
+    /* transition: 0.5s ease; */
+}
+
+.icons{
+    color: rgb(165, 165, 165);
+    display: flex;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 6px;
+    padding-bottom: 10px;
+    /* width: 1215px; */
+    /* width: 76%; */
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+    transition: 0.5s ease;
+}
+
+.icon{
+    /* padding-top: 1px; */
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 20px;
+}
+.icon-div{
+    padding-right: 8px;
+    transition-duration: 0.4s;
+}
+.icon-div:hover{
+    color: white;
+    cursor: pointer;
+}
+@media only screen and (max-width: 1260px) {
+    .icons {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}

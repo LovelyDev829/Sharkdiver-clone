@@ -1,0 +1,35 @@
+.row{
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+    /* height: 400px; */
+    /* background-color: tomato; */
+    display: flex;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.text{
+    /* width: 400px; */
+    padding-right: 15px;
+    padding-left: 15px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 28.5px;
+    color: #919daa;
+    text-align: left;
+}
+
+.col-three-img{
+    /* width: 400px; */
+    padding: 15px;
+    margin: auto;
+    text-align: center;
+}
+
+br {
+    content: "";
+    margin: 4em;
+    display: block;
+    font-size: 24%;
+}

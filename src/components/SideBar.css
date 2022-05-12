@@ -1,0 +1,99 @@
+.sideBar{
+    position: fixed;
+    right: 0px;
+    /* width: 100%; */
+    height: 100vh;
+    /* background-color: rgba(157, 214, 214, 0.507); */
+    display: flex;
+}
+.linkClassName{
+    text-decoration: none;
+}
+.sideBar_div{
+    margin: auto;
+    margin-right: 0px;
+    width: 440px;
+    height: 100vh;
+    /* background-color: rgba(190, 68, 68, 0.384); */
+}
+.sideBar_title{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(34, 34, 36);
+    color: white;
+    padding-left: 25px;
+    /* padding-right: 25px; */
+    padding-top: 40px;
+    font-size: 12px;
+    font-weight: 800;
+    letter-spacing: 2.4px;
+    line-height: 60px;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+}
+.sideBar_detail{
+    /* background-color: yellowgreen; */
+    padding-top: 20px;
+    transition-duration: 0.5s;
+    animation-duration: 0.5s;
+}
+/* .sideBar_detail_leftAnim{
+    animation: fadeOutLeft;
+    
+} */
+.sideBar_item{
+    cursor: pointer;
+    height: 45px;
+    width: 100%;
+    padding: 10px;
+    padding-left: 25px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: left;
+    color: rgb(126, 130, 139);
+    transition-duration: 0.3s;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sideBar_item:hover{
+    background-color: rgb(240, 240, 240);
+}
+.rightBtn{
+    padding-left: 5px;
+    padding-right: 5px;
+    cursor: pointer;
+}
+.leftBtn{
+    padding-left: 20px;
+    padding-right: 20px;
+    cursor: pointer;
+    opacity: 0;
+}
+.detailAbout{
+    position: absolute;
+    width: 100%;
+    top: 100px;
+    right: 0;
+    left: auto;
+    visibility: hidden;
+    /* background-color: crimson; */
+}
+.detailAdventures{
+    position: absolute;
+    width: 100%;
+    top: 100px;
+    right: 0;
+    left: auto;
+    visibility: hidden;
+}
+.detailMedia{
+    position: absolute;
+    width: 100%;
+    top: 100px;
+    right: 0;
+    left: auto;
+    visibility: hidden;
+}

@@ -1,0 +1,129 @@
+.homeChatNav{
+    margin-top: 70px;
+}
+.chatBox_div{
+    max-width: 1170px;
+    width: 100%;
+    margin: auto;
+    /* height: 300px; */
+    height: fit-content;
+    /* background-color: crimson; */
+    position: relative;
+    height: 200px;
+}
+.chatBox{
+    animation-duration: 0.5s;
+    transition-duration: 0.5s;
+    /* position: relative; */
+    position: absolute;
+    top: 0px;
+    margin-left: 30px;
+    margin-right: 30px;
+    /* background-color: cyan; */
+    /* height: 300px; */
+    padding: 15px;
+    padding-top: 20px;
+    padding-bottom: 0px;
+    text-align: center;
+}
+.chatBox #pp3{
+    direction: 1tr;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 200;
+    line-height: 36px;
+    color: #919daa;
+}
+.pp1_dir{
+    width: fit-content;
+    margin: auto;
+}
+.chatBox #pp1{
+    text-align: center;
+    display: flex;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 20px;
+    /* margin: auto;
+    margin-left: 300px; */
+    color: #4e6278;
+    margin-bottom: 0px;
+}
+.chatBox #pp2{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #919daa;
+}
+.speechMark{
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 16px;
+    color: rgb(78, 98, 120);
+
+}
+.recommend_dir{
+    width: fit-content;
+    margin: auto;
+}
+.recommend{
+    width: 146px;
+    height: 85px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(52, 224, 161);
+    /* background-color: darkblue; */
+}
+.reconmmend_top{
+    background-color: #34e0a1;
+    /* color: white; */
+    /* height: 30px; */
+}
+.reconmmend_top p{
+    font-size: 13px;
+    padding-top: 5px;
+    font-weight: 700;
+    margin-bottom: 0px;
+    padding-bottom: 5px;
+}
+.reconmmend_top img{
+    height: 11 px;
+    margin-bottom: 15px;
+}
+.recommend p{
+    font-size: 11px;
+    font-weight: 700;
+    margin: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+#chatId1{
+    /* visibility: visible; */
+    /* display: block; */
+    opacity: 1;
+    animation-duration: 0.5s;
+    transition-duration: 0.5s;
+}
+#chatId2{
+    /* visibility: hidden; */
+    /* display: none; */
+    opacity: 0;
+    animation-duration: 0.5s;
+    transition-duration: 0.5s;
+}
+#chatId3{
+    /* visibility: hidden; */
+    /* display: none; */
+    opacity: 0;
+    animation-duration: 0.5s;
+    transition-duration: 0.5s;
+}
+#chatId{
+    /* visibility: hidden; */
+    /* display: none; */
+    opacity: 0;
+    animation-duration: 0.5s;
+    transition-duration: 0.5s;
+}
